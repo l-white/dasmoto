@@ -1,0 +1,61 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  background-image: url(img/pattern.webp);
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  margin-bottom: -15px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  padding-left: 10px;
+}
+
+.brushes {
+  background-color: rgb(32, 121, 87);
+}
+
+.frames {
+  background-color: lightcoral;
+}
+
+.paint {
+  background-color: skyblue;
+}
+
+div {
+  clear: both;
+}
+
+.product-img {
+  float: left;
+  margin-right: 10px;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 15px;
+  border-radius: 10%;
+}
+
+.price-cta {
+  font-weight: bold;
+  color: blue;
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 75px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 60px;
+  }
+}
